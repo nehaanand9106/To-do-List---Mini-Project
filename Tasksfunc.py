@@ -60,7 +60,6 @@ def add():
     except ValueError:
         print("Please enter a valid number.")
 def delete():
-  def delete():
     try:
         with open("Tasks.txt", "r") as f:
             tasks = f.readlines()
