@@ -24,7 +24,7 @@ def add():
         f.write(f"[ ] {task}\n")
 
     print("Task added successfully.")
-  def mark():
+def mark():
     try:
         with open("Tasks.txt", "r") as f:
             tasks = f.readlines()
